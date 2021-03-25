@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tiermaker-46ca8"
+  },
+  "targets": {
+    "tiermaker-46ca8": {
+      "hosting": {
+        "tiermaker-ng": [
+          "tiermaker-46ca8"
+        ]
+      }
+    }
+  }
+}

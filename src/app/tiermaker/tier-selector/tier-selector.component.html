@@ -1,0 +1,16 @@
+<select (change)="changeSelectedTier($event)">
+  <option value="">-</option>
+  <option
+    *ngFor="let tier of tiers"
+    [selected]="tier.default"
+    [value]="tier.value"
+  >
+    {{ tier.label }}
+  </option>
+</select>
+
+<ul *ngIf="imageUrls.length > 0">
+  <li *ngFor="let url of imageUrls">
+    <img [src]="url" style="max-height: 80px" />
+  </li>
+</ul>
